@@ -9,7 +9,7 @@
           />
         <ResumeInput type="text" label="Специализация" name="specialization" @updated="setEducationValue"
         />
-        <ResumeInput type="number" label="Год окончания" name="gard_year" @updated="setEducationValue"
+        <ResumeInput type="number" label="Год окончания" name="gard_year" @updated="setEducationValue" error_message="нереалистичный год"
          />
       </div>
     </div>

@@ -33,12 +33,12 @@ export default {
   emits: ['updated',],
   data() {
     return {
-      // Значение, введенное пользователем
+      // значение, введенное пользователем
       value: '',
     }
   },
   computed: {
-    //Обработка вводимого значения
+    //обработка вводимого значения
     valid() {
       if (this.value) {
         if(this.type=='date'){
@@ -46,6 +46,12 @@ export default {
           let max=Date.parse('01.01.2010');
           let birthDate=Date.parse(this.value);
           if(birthDate>max || birthDate<min){
+            return false;
+          }
+          return true;
+        }
+        if(this.name=='gard_year'){
+          if(this.value>2023 || this.value<1950){
             return false;
           }
           return true;
