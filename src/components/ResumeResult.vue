@@ -1,3 +1,4 @@
+<!-- общая форма ввода -->
 <template>
     <div class="container">
         <div class="apple">

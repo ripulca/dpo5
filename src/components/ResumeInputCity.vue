@@ -1,3 +1,4 @@
+<!-- форма ввода города -->
 <template>
     <div class="px-1 pt-2">
         <label class="form-label">Город проживания</label>

@@ -1,3 +1,4 @@
+<!-- ввод образования -->
 <template>
   <div class="px-1 pt-2">
     <div>
